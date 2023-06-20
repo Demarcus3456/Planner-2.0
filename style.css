@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A0C49D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+img {
+    width: 100px;
+    height: 600px;
+}
+
+/* Vision Board */
+.vision {
+    background-color: #C4D7B2;
+}
+
+.box {
+    background-color: white;
+    opacity: 80%;
+}
