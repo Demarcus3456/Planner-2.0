@@ -20,10 +20,14 @@ img {
 
 /* Vision Board */
 .vision {
-    background-color: #7bff00;
+    background-color: #c9e0b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .box {
     background-color: white;
-    opacity: 80%;
+    opacity: 0%;
 }
