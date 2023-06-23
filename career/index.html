@@ -19,7 +19,8 @@
             <h2>Javascript</h2>
             <button class="start-js">Start</button>
         </div>
-        <div class="js-content">
+        <div class="js-content hidden">
+            <button class="back">Back</button>
             <!-- Fundementals -->
             <h1>Fundementals</h1>
             <div class="info">
@@ -34,11 +35,22 @@
                                 <a class="btn btn-primary" data-bs-toggle="collapse" href="#number">
                                     <li class="list-group-item">Numbers</li>
                                 </a>
-                                <li class="list-group-item">Strings</li>
-                                <li class="list-group-item">Boolean</li>
+                                <a class="btn btn-primary" data-bs-toggle="collapse" href="#string">
+                                    <li class="list-group-item">Strings</li>
+                                </a>
+                                <a class="btn btn-primary" data-bs-toggle="collapse" href="#boolean">
+                                    <li class="list-group-item">Boolean</li>
+                                </a>
+                                <a class="btn btn-primary" data-bs-toggle="collapse" href="#undefined">
+                                    <li class="list-group-item">Undefined</li>
+                                </a>
+                                <a class="btn btn-primary" data-bs-toggle="collapse" href="#null">
+                                    <li class="list-group-item">Null</li>
+                                </a>
                             </ul>
                         </div>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures"
+                            class="btn btn-primary">More Information</a>
                     </div>
                 </div>
             </div>
@@ -48,11 +60,46 @@
     <!-- Numbers -->
     <div class="collapse" id="number">
         <div class="card card-body">
+            <h1>Numbers</h1>
             Numbers can be written with, or without decimals:
         </div>
         <div id="numbers"></div>
     </div>
+    <!-- Strings -->
+    <div class="collapse" id="string">
+        <div class="card card-body">
+            <h1>Strings</h1>
+            A string (or a text string) is a series of characters like "John Doe".
 
+            Strings are written with quotes. You can use single or double quotes:
+        </div>
+        <div id="strings"></div>
+    </div>
+    <!-- Boolean -->
+    <div class="collapse" id="boolean">
+        <div class="card card-body">
+            <h1>Boolean</h1>
+            Boolean can only have two values: true or false.
+        </div>
+        <div id="booleans"></div>
+    </div>
+    <!-- Undefined -->
+    <div class="collapse" id="undefined">
+        <div class="card card-body">
+            <h1>Undefined</h1>
+            In JavaScript, a variable without a value, has the value undefined. The type is also undefined.
+        </div>
+        <div id="undefineds"></div>
+    </div>
+    <!-- Null -->
+    <div class="collapse" id="null">
+        <div class="card card-body">
+            <h1>Null</h1>
+            The null value represents the intentional absence of any object value. It is one of JavaScript's primitive
+            values and is treated as falsy for boolean operations.
+        </div>
+        <div id="nulls"></div>
+    </div>
 
 
 

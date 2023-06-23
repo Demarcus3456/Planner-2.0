@@ -33,7 +33,11 @@ img {
     margin-bottom: 15px;
 }
 
-#numbers {
+#numbers,
+#strings,
+#booleans,
+#undefineds,
+#nulls {
     font-family: monospace;
     background-color: #f5f5f5;
     padding: 10px;
